@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>QuickResponsibleChange</Name>
+    <Version>6.0.1</Version>
+    <Framework>6.0.x</Framework>
+    <Vendor>Oleg Russkin</Vendor>
+    <URL>https://github.com/olegrolep/otrs-QuickResponsibleChange-2</URL>
+    <Description Lang="en">Change ticket responsibles easily.</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/XML/QuickResponsibleChange.xml" />
+        <File Permission="644" Location="Kernel/Config/Files/QuickResponsibleChange.xml" />
+        <File Permission="644" Location="Kernel/Modules/AgentTicketQuickResponsibleChange.pm" />
+        <File Permission="644" Location="Kernel/Output/HTML/TicketMenu/QuickResponsibleChange.pm" />
+        <File Permission="644" Location="Kernel/Output/HTML/TicketOverviewMenu/QuickResponsibleChangeBulk.pm" />
+        <File Permission="644" Location="Kernel/Output/HTML/Templates/Standard/QuickResponsibleChangeSnippetBulk.tt" />
+        <File Permission="644" Location="doc/QuickResponsibleChange.json" />
+        <File Permission="644" Location="doc/en/QuickResponsibleChange.pod" />
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.Agent.Overview.QuickResponsibleChange.js" />
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.Agent.TicketZoom.QuickResponsibleChange.js" />
+    </Filelist>
+</otrs_package>
